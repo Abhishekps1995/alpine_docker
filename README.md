@@ -1,4 +1,4 @@
-# Create a docker image alpine_docker and push it to Docker Hub
+# Create a alpine docker image  and pushing it to the Docker Hub
 
 Add the Docker Hub Credentials to Jenkins
 You could use your password for your Docker Hub credentials, but it’s better to create an access token to login into Docker Hub. The Jenkins pipeline will use your Docker Hub username and access token when pushing the Docker image to the Docker Hub repository. To create the Docker Hub access token, follow the steps below:
