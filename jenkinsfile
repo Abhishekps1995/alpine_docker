@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Login') {
       steps {
-        sh 'echo $dckr_pat_LaTnXbDgu_OvnQ8IkXkI7fOujaA | docker login -u $abhishekps --password-stdin'
+        sh 'echo dckr_pat_LaTnXbDgu_OvnQ8IkXkI7fOujaA | docker login -u abhishekps --password-stdin'
       }
     }
     stage('Push') {
